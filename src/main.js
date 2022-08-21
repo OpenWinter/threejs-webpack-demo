@@ -1,4 +1,3 @@
-/*
 import {init, createSprite} from './method'
 import {changeCanvasText} from './canvas'
 
@@ -51,12 +50,5 @@ window.onload = () => {
 function random() {
   return Math.ceil(Math.random() * 1000);
 }
-*/
 
-function test(){
-  import('./canvas').then(r =>{
-    console.log(r)
-  })
-}
 
-test()
